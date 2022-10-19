@@ -1,0 +1,118 @@
+.choose__block {
+  background-color: #2c343e;
+  border-radius: 10px;
+  position: relative
+}
+
+.choose__text-block {
+  max-width: 540px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 86px;
+  text-align: center
+}
+
+.choose__title {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px
+}
+
+.choose__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: .8
+}
+
+.choose__list {
+  max-width: 1110px;
+  margin: 0 auto
+}
+
+.work__line,
+.work__list {
+  justify-content: space-between
+}
+
+.choose__item {
+  max-width: 350px;
+  text-align: center;
+  background-color: #0e8784;
+  border-radius: 8px;
+  padding: 0 47px 47px
+}
+
+.choose__sub-title {
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+  padding-top: 56px;
+  margin-bottom: 24px
+}
+
+.choose__sub-text {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7
+}
+
+.work__sub-title,
+.work__title {
+  font-family: Fraunces;
+  font-weight: 900
+}
+
+.choose__item:first-child::before {
+  width: 72px;
+  background-image: url('../img/choose1.svg');
+  display: inline-block;
+  margin-top: 72px
+}
+
+.choose__item:nth-child(2)::before {
+  width: 72px;
+  background-image: url('../img/choose2.svg');
+  display: inline-block;
+  margin-top: 72px
+}
+
+.choose__item:nth-child(3)::before {
+  width: 72px;
+  background-image: url('../img/choose3.svg');
+  display: inline-block;
+  margin-top: 72px
+}
+
+.choose__button {
+  width: 100%;
+  background-color: #2c343e;
+  border-radius: 10px;
+  height: 250px;
+  position: absolute;
+  z-index: -1;
+  top: 95%
+}
+.choose__item:first-child::before,
+.choose__item:nth-child(2)::before,
+.choose__item:nth-child(3)::before
+ {
+  content: "";
+  height: 72px;
+  background-repeat: no-repeat;
+}
+.choose__list
+{
+  justify-content: space-between;
+  display: flex
+}

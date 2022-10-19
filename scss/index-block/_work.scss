@@ -1,0 +1,122 @@
+
+.work__sub-title,
+.work__title {
+  font-family: Fraunces;
+  font-weight: 900
+}
+
+
+.work__container {
+  max-width: 1160px;
+  margin-top: 200px;
+  padding-right: 95px
+}
+.work__line,
+.work__list {
+  justify-content: space-between
+}
+.work__link {
+  font-weight: 900;
+  font-family: Fraunces
+}
+
+.work__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 6px;
+  padding: 15px 31px;
+  transition: .4s linear
+}
+
+.work__link:hover {
+  background-color: #66d2cf;
+  color: #dbdada
+}
+
+.work__link:active {
+  background-color: #9aa7f8
+}
+
+.work__title {
+  max-width: 255px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 80px
+}
+
+.work__line {
+  max-width: 760px;
+  height: 2px;
+  background-color: #fdd6ba;
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-bottom: 82px
+}
+
+.work__aylana {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  border: 2px solid #0e8784;
+  display: inline-block
+}
+
+.work__list {
+  display: flex
+}
+
+.work__item {
+  max-width: 285px
+}
+
+.work__sub-title {
+  margin-top: 38px;
+  margin-bottom: 42px;
+  max-width: 255px;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b
+}
+
+.work__sub-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b
+}
+
+.work__item:first-child::before {
+  width: 90px;
+  background-image: url('../img/work1.svg');
+  display: inline-block
+}
+
+.work__item:nth-child(2)::before {
+  width: 101px;
+  background-image: url('../img/work2.svg');
+  display: inline-block
+}
+
+.work__item:nth-child(3)::before {
+  width: 98px;
+  background-image: url('../img/work3.svg');
+  display: inline-block
+}
+
+.work__block {
+  margin-bottom: 64px
+}
+
+.work__item:first-child::before,
+.work__item:nth-child(2)::before,
+.work__item:nth-child(3)::before {
+  content: "";
+  height: 72px;
+  background-repeat: no-repeat
+}
